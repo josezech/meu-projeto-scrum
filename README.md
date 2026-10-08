@@ -1,21 +1,30 @@
+Criando uma História em Quadrinhos com IA Generativa
+
+Projeto desenvolvido para a disciplina utilizando metodologias ágeis (SCRUM e Kanban) e ferramentas de IA Generativa para a criação do enredo, roteiro e ilustrações da BD (Banda Desenhada / História em Quadrinhos).
+
+---
+
 Gestão do Projeto (Scrum & Kanban)
 
-Neste projeto, utilizamos a metodologia ágil Scrum em conjunto com um quadro Kanban para o gerenciamento e acompanhamento das atividades do grupo.
-
-Quadro Kanban (GitHub Projects): [Acessar Quadro Kanban]((https://github.com/users/josezech/projects/1))
+Quadro Kanban (GitHub Projects): [Acessar Quadro Kanban](https://github.com/users/josezech/projects/1)
 Product Backlog (GitHub Issues): [Acessar Product Backlog](https://github.com/josezech/meu-projeto-scrum/issues)
 
 ---
 
-Planejamento da Sprint 1
-Duração:** 1 semana
-Objetivo da Sprint: Implementar a autenticação de usuários, cadastrar as configurações da API do OpenRouteService e exibir a tela inicial de mapa e notas.
-Ferramental Utilizado: GitHub Issues (Product Backlog & Sprint Backlog) e GitHub Projects (Quadro Kanban).
+Status do Projeto (Sprint 1 - Duração: 1 semana)
 
-Tarefas do Sprint Backlog (Sprint 1):
-- [ ] `[PB01]` Tela de Login e Autenticação de Usuário
-- [ ] `[PB02]` Cadastrar API Key do OpenRouteService no Firestore
-- [ ] `[PB03]` Exibir mapa e marcação de ponto inicial e final
-- [ ] `[PB04]` Traçar rota e calcular distância/tempo com a API
-- [ ] `[PB05]` Exibir notificações locais ao salvar uma nota
-- [ ] `[PB06]` Ajustes de interface e testes do aplicativo
+|  Product Backlog |  Sprint Backlog (Esta Semana) |  Em Andamento |  Concluído |
+| :--- | :--- | :--- | :--- |
+| `[PB04]` Gerar ilustrações das páginas | `[PB01]` Brainstorming do Enredo com IA | | |
+| `[PB05]` Diagramação dos Quadrinhos | `[PB02]` Criação dos Personagens e Prompts | | |
+| `[PB06]` Revisão e Exportação Final | `[PB03]` Roteiro Detalhado das Cenas | | |
+
+---
+
+Resumo das Tarefas da Sprint 1:
+- [ ] **[PB01] Brainstorming do Enredo:** Utilizar IA (ChatGPT/Gemini) para gerar ideias centrais, premissa e reviravoltas da história.
+- [ ] **[PB02] Design de Personagens:** Criar a descrição física e conceitos visuais (*prompts*) dos personagens principais.
+- [ ] **[PB03] Roteiro das Cenas:** Estruturar falas, narração e descrição dos quadros (quadro a quadro).
+- [ ] **[PB04] Geração de Imagens:** Utilizar IAs geradoras de imagem (DALL-E, Midjourney, Bing, etc.) para criar as ilustrações.
+- [ ] **[PB05] Edição e Diagramação:** Montar as páginas adicionando balões de fala e quadros.
+- [ ] **[PB06] Finalização e Documentação:** Organizar o repositório com o PDF/imagens da HQ e documentar os *prompts* utilizados.
